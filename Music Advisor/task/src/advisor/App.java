@@ -1,23 +1,24 @@
 package advisor;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class App {
 
-    private boolean accessForApplication = false;
+    private boolean isAuthorised = false;
 
-    private void setAccessForApplication(boolean accessForApplication) {
-        this.accessForApplication = accessForApplication;
+    private void setAccessAuthorisation(boolean accessForApplication) {
+        this.isAuthorised = accessForApplication;
     }
 
-    public boolean getAccessForApplication() {
-        return accessForApplication;
+    public boolean getAuthorised() {
+        return isAuthorised;
     }
 
     public void startApp() {
         Scanner scanner = new Scanner(System.in);
 
-        for (; ; ) {
+        for (;;) {
             String userRequest = scanner.nextLine();
             String chosenPlaylist = null;
 
@@ -28,7 +29,7 @@ public class App {
 
             switch (userRequest) {
                 case "auth": {
-                    auth();
+                        auth();
                     break;
                 }
                 case "featured": {
@@ -60,27 +61,27 @@ public class App {
     }
 
     public void newReleases() {
-        if (getAccessForApplication()) {
+        if (getAuthorised()) {
             System.out.println("---NEW RELEASES---");
             System.out.println("Mountains [Sia, Diplo, Labrinth]");
             System.out.println("Runaway [Lil Peep]");
             System.out.println("The Greatest Show [Panic! At The Disco]");
             System.out.println("All Out Life [Slipknot]");
-        } else if (!getAccessForApplication()) {
+        } else if (!getAuthorised()) {
             System.out.println("Please, provide access for application.");
         }
 
     }
 
     public void featured() {
-        if (getAccessForApplication()) {
+        if (getAuthorised()) {
             System.out.println("---FEATURED---");
             System.out.println("Mellow Morning");
             System.out.println("Wake Up and Smell the Coffee");
             System.out.println("Monday Motivation");
             System.out.println("Songs to Sing in the Shower");
 
-        } else if (!getAccessForApplication()) {
+        } else if (!getAuthorised()) {
             System.out.println("Please, provide access for application.");
         }
     }
@@ -125,9 +126,9 @@ public class App {
     }
 
     public void auth() {
-        System.out.println(
-                "https://accounts.spotify.com/authorize?client_id=85186ab981eb42eea0e17ce909e2b0d0&redirect_uri=https://www.example.com&response_type=code");
-        System.out.println("---SUCCESS---");
-        setAccessForApplication(true);
+        Authorization auth = new Authorization();
+        auth.getAccessCode();
+        auth.getToken();
+        setAccessAuthorisation(true);
     }
 }

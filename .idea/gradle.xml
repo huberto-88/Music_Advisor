@@ -12,6 +12,24 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Music Advisor/task" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/10 days before" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/2 weeks after" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/30 years before and after" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/Find all mondays" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/Getting information on a day" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/Print dates of a year with an offset" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/The first day of a month or not" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/The last day of a month" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalDate/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/10 days before" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/2 weeks after" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/30 years before and after" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Find all mondays" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Getting information on a day" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Print dates of a year with an offset" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/The first day of a month or not" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/The last day of a month" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
