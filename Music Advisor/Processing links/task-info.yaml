@@ -1447,13 +1447,16 @@ files:
         }
     }
   learner_created: false
+- name: src/advisor/Controller.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/62/stages/338/implement#comment
 status: Failed
 feedback:
   message: |-
-    Wrong answer in test #1
+    Wrong answer in test #2
 
-    Not received any response from the server, found in redirect_uri: http://localhost:80
+    Access token is incorrect!
 
     Please find below the output of your program during this failed test.
     Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
@@ -1466,6 +1469,21 @@ feedback:
     use this link to request the access code:
     http://127.0.0.1:45678/authorize?client_id=304f6e6c5c81418f9e653d683b36312d&amp;redirect_uri=http://localhost:8080&amp;response_type=code
     waiting for code...
-    Tester: making requests to redirect uri: http://localhost:80
-  time: Fri, 26 Nov 2021 13:35:41 UTC
+    Tester: making requests to redirect uri: http://localhost:8080
+    Tester: done request 1: Authorization code not found. Try again.
+    Tester: done request 2: Authorization code not found. Try again.
+    code received
+    123123
+    Tester: done request 3: Got the code. Return back to your program.
+    making http request for access_token...
+    response
+    ---SUCCESS---
+    &gt; categories
+    ---CATEGORIES---
+    Top Lists
+    Pop
+    Pop
+    Mood
+    Latin
+  time: Sat, 27 Nov 2021 00:52:35 UTC
 record: 4
