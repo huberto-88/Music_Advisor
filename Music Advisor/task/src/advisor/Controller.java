@@ -14,7 +14,7 @@ public class Controller {
         if (spotify.isAuthorised()) {
             spotify.getNewReleases();
 
-        } else if (!spotify.isAuthorised()) {
+        } else {
             System.out.println("Please, provide access for application.");
         }
     }
@@ -22,7 +22,24 @@ public class Controller {
     public void categories() {
         if (spotify.isAuthorised()) {
             spotify.getCategories();
+        } else {
+            System.out.println("Please, provide access for application.");
         }
+    }
 
+    public void featured() {
+        if (spotify.isAuthorised()) {
+            spotify.getFeatured();
+        } else {
+            System.out.println("Please, provide access for application.");
+        }
+    }
+
+    public void playList(String chosenPlaylist) {
+        if (spotify.isAuthorised()) {
+            spotify.playList(chosenPlaylist);
+        } else {
+            System.out.println("Please, provide access for application.");
+        }
     }
 }
