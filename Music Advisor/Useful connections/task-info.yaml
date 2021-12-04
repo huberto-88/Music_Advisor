@@ -300,6 +300,9 @@ files:
 
     }
   learner_created: false
+- name: src/advisor/App.java
+  visible: true
+  learner_created: true
 - name: test/Server.java
   visible: false
   text: |
@@ -431,13 +434,10 @@ files:
         }
     }
   learner_created: false
-- name: src/advisor/App.java
-  visible: true
-  learner_created: true
 - name: src/advisor/Authorization.java
   visible: true
   learner_created: true
-feedback_link: https://hyperskill.org/projects/62/stages/337/implement#comment
+feedback_link: https://hyperskill.org/learn/step/5479#comment
 status: Solved
 feedback:
   message: Congratulations!

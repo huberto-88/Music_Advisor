@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="17">
+      <module name="Music_Advisor.Music_Advisor-task-build-classes-java.main" target="11" />
+      <module name="Music_Advisor.Music_Advisor-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Music_Advisor.Music_Advisor-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Music_Advisor.Music_Advisor-task-build-reports-tests.main" target="11" />
+      <module name="Music_Advisor.Music_Advisor-task-build-test-results.main" target="11" />
+      <module name="Music_Advisor.Music_Advisor-task-build-tmp.main" target="11" />
+      <module name="Music_Advisor.Music_Advisor-task-out.main" target="11" />
+      <module name="Music_Advisor.Music_Advisor-task.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-10_days_before.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-2_weeks_after.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-30_years_before_and_after.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-Find_all_mondays.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-Getting_information_on_a_day.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-Print_dates_of_a_year_with_an_offset.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-The_first_day_of_a_month_or_not.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-The_last_day_of_a_month.main" target="11" />
+      <module name="Music_Advisor.Topics-LocalDate-Theory.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Defining_classes-Accounts.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Defining_classes-Books.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Defining_classes-Complex_numbers.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Defining_classes-Inner_boxes.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Defining_classes-Points_on_the_2D_plane.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Defining_classes-Representing_time_as_a_class.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Defining_classes-Theory.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-10_days_before.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-2_weeks_after.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-30_years_before_and_after.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-Find_all_mondays.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-Getting_information_on_a_day.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-Print_dates_of_a_year_with_an_offset.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-The_first_day_of_a_month_or_not.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-The_last_day_of_a_month.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-LocalDate-Theory.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Objects-Army.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Objects-Change_identities.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Objects-Preparing_full_name.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Objects-Theory.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Scanning_the_input-Guest_list_of_a_hotel.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Scanning_the_input-Hiring_a_chef.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Scanning_the_input-Print_strings_in_the_reverse_order.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Scanning_the_input-Printing_each_word_in_a_new_line.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Scanning_the_input-Printing_strings_in_the_same_order.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-Scanning_the_input-Theory.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-The_for-loop-Maximum_element_divisible_by_four.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-The_for-loop-The_count_of_numbers_divisible_by_N.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-The_for-loop-The_product_of_numbers_from_a_to_b.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-The_for-loop-The_roots_of_an_equation.main" target="11" />
+      <module name="Music_Advisor.Topics__1_-The_for-loop-Theory.main" target="11" />
+      <module name="Music_Advisor.util.main" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

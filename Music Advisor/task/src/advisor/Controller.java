@@ -1,43 +1,55 @@
 package advisor;
 
-public class Controller {
-    private Authorization spotify = new Authorization();
+import advisor.model.Model;
 
-    public void auth() {
-        spotify.getAccessCode();
-        spotify.getToken();
-        spotify.setAuthorised(true);
+public class Controller {
+    private final Authorization spotifyAuth = new Authorization();
+    private final Model model;
+    private final View view;
+
+    public Controller(Model model, View view) {
+        this.model = model;
+        this.view = view;
     }
 
+    public void auth() {
+        spotifyAuth.getAccessCode();
+        spotifyAuth.getToken();
+        spotifyAuth.setAuthorised(true);
+        model.setTOKEN(spotifyAuth.getTOKEN());
+    }
 
     public void newReleases() {
-        if (spotify.isAuthorised()) {
-            spotify.getNewReleases();
-
+        if (spotifyAuth.isAuthorised()) {
+            model.newReleases();
+            view.display(model.getNewReleaseList());
         } else {
             System.out.println("Please, provide access for application.");
         }
     }
 
     public void categories() {
-        if (spotify.isAuthorised()) {
-            spotify.getCategories();
+        if (spotifyAuth.isAuthorised()) {
+            model.listCategories();
+            view.display(model.getCategoriesList());
         } else {
             System.out.println("Please, provide access for application.");
         }
     }
 
     public void featured() {
-        if (spotify.isAuthorised()) {
-            spotify.getFeatured();
+        if (spotifyAuth.isAuthorised()) {
+            model.featured();
+            view.display(model.getFeaturedList());
         } else {
             System.out.println("Please, provide access for application.");
         }
     }
 
     public void playList(String chosenPlaylist) {
-        if (spotify.isAuthorised()) {
-            spotify.playList(chosenPlaylist);
+        if (spotifyAuth.isAuthorised()) {
+            model.playlist(chosenPlaylist);
+            view.display(model.getPlayListsList());
         } else {
             System.out.println("Please, provide access for application.");
         }
